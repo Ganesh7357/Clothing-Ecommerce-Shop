@@ -1,0 +1,24 @@
+.hero{
+    height: 700px;
+    background-image: url(https://bagruhastkala.com/cdn/shop/files/IMG-20231209-WA0148.jpg?v=1702108028&width=1080);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media(max-width: 500px){
+    .hero{
+        height: 500px;
+    }
+}
+.bg-base-200 {
+    --tw-bg-opacity: 0.5 !important;
+}
+
+.footer_img{
+    background-image: url(https://cdn.shopify.com/s/files/1/0764/2270/9541/files/footer-bg.png?v=1686988046&width=1600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
